@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>AnimeGuide</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #3C096C;
+        }
+
+        a {
+            text-decoration: none;
+            text-decoration-line: none;
+            outline: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            text-decoration-line: none;
+            outline: none;
+        }
+
+        .navcustom {
+            background: #10002B;
+            position: sticky;
+            padding-bottom: 15px;
+        }
+
+        .navcustom a {
+            align-self: center;
+            color: aliceblue;
+            font-size: 40px;
+            margin-top: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .searchbar {
+            margin-top: 120px;
+            margin-bottom: 70px;
+            position: relative;
+            width: 50%;
+            height: 50px;
+            background: #FFFFFF;
+            border-radius: 15px;
+            margin-left: 25%;
+        }
+
+        .searchbar p {
+            align-items: center;
+            align-self: center;
+        }
+
+        .searchbar:focus {
+            outline: none;
+        }
+
+
+        .animecont {
+            background: #e2e2e2;
+            height: 25%;
+            border-radius: 8px;
+            margin: 20px 15px 15px 15px;
+            padding: 4px;
+        }
+
+        .animecont img {
+            width: 100%;
+            height: 250px;
+            padding: 1px;
+            margin-bottom: 10px;
+            border-radius: 15px;
+        }
+
+        .animecont h3 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 1em;
+            text-align: center;
+            text-justify: inter-word;
+            max-height: 2em;
+
+        }
+
+        .animecont p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 0.70em;
+            text-align: center;
+            max-height: 2em;
+            margin-top: 5px;
+        }
+
+        .ico {
+            position: relative;
+            top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <nav class=" navcustom">
+            <div class="nav navbar-nav">
+                <a href="index.html"> AnimesGuide </a>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <form method="POST" action="/anime">
+            <input class="searchbar" type="text" name="animename" placeholder="  Pesquise por um anime">
+            <input type="image"
+                src="https://icon-library.com/images/white-search-icon-transparent-background/white-search-icon-transparent-background-1.jpg"
+                alt="Submit" width="32" height="32" class="ico">
+        </form>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+
+            <div class="col-4  col-lg-2 animecont">
+                <h3> Sakura-sou no Pet na Kanojo </h3>
+                <img src="https://cdn.myanimelist.net/images/anime/4/43643.jpg?s=1e1470c34dd4b9a6fa6d0f3954ad12cc"
+                    class="img-fluid" />
+                <p> episodes </p>
+                <p> Score </p>
+                <p> Data </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    </script>
+</body>
+
+</html>
