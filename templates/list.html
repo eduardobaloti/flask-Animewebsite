@@ -83,10 +83,12 @@
 
         .animecont h3 {
             font-family: 'Josefin Sans', sans-serif;
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-size: 1em;
             text-align: center;
             text-justify: inter-word;
-            max-height: 2em;
+            height: 2.2em;
 
         }
 
@@ -103,8 +105,6 @@
             top: 8px;
         }
     </style>
-
-
 </head>
 
 <body>
@@ -125,6 +125,26 @@
                 alt="Submit" width="32" height="32" class="ico">
         </form>
     </div>
+
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            {% for results in data.results %}
+            <div class="col-4  col-lg-2 animecont">
+                <h3> {{results.title}} </h3>
+                <img src="{{results.image_url}}" />
+                <p> {{results.episodes }} Episodes </p>
+                <p> Score: {{results.score}} </p>
+                <p> {{results.end_date}} </p>
+            </div>  
+        {% endfor %}
+          
+        </div>
+    </div>
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
